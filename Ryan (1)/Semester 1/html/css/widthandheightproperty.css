@@ -1,0 +1,11 @@
+#container{
+    width: 350px;
+    background-color: red;
+    height: 250px;
+}
+#container .subContainer{
+    /* width: 200px; */
+    width: 100%;
+    background-color: blue;
+    height: 90px;
+}

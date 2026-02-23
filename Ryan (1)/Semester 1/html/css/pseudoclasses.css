@@ -1,0 +1,10 @@
+h2:hover {
+    background-color: red;
+}
+
+a:hover {
+    background-color: blue;
+}
+/* a:visited {
+    background-color: green;
+} */

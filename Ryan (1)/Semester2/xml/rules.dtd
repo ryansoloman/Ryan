@@ -1,0 +1,15 @@
+<!ELEMENT aptech (employees, students)>
+ <!ELEMENT employees (employee)>
+    <!ELEMENT employee (employee_id, employee_name, employee_designation, employee_email, employee_contact)>
+    <!ELEMENT employee_id (#PCDATA)>
+    <!ELEMENT employee_name (#PCDATA)>
+    <!ELEMENT employee_designation (#PCDATA)>
+    <!ELEMENT employee_email (#PCDATA)>
+    <!ELEMENT employee_contact (#PCDATA)>
+
+    <!ELEMENT students (student)>
+    <!ELEMENT student (student_id, student_name, student_email, student_contact)>
+    <!ELEMENT student_id (#PCDATA)>
+    <!ELEMENT student_name (#PCDATA)>
+    <!ELEMENT student_email (#PCDATA)>
+    <!ELEMENT student_contact (#PCDATA)>
