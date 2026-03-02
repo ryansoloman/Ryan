@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- <?xml-model href="rules.dtd" type="application/xml-dtd"?> -->
+
+
+
+<aptech>
+    <employees>
+            <employee>
+                <employee_id>111</employee_id>
+                <employee_name>Ali</employee_name>
+                <employee_designation>Website Developer</employee_designation>
+                <employee_email>ali@aptech.com</employee_email>
+                <employee_contact>+92 300-1234567</employee_contact>
+            </employee>
+    </employees>
+    <students>
+        <student>
+            <student_id>101</student_id>
+            <student_name>Ahmed</student_name>
+            <student_email>ahmed@aptech.com</student_email>
+            <student_contact>+92 300-1234568</student_contact>
+        </student>
+    </students>
+</aptech>

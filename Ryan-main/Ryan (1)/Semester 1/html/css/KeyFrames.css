@@ -1,0 +1,19 @@
+h1 {
+    animation-name: bgSwitch;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bgSwitch {
+    0%{
+        background-color:#6A0DAD;
+    }
+    50%{
+        background-color: #B63331;
+    }
+    100%{
+        background-color:#6A0DAD;
+    }
+    
+}
